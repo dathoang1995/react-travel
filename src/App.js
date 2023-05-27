@@ -3,7 +3,7 @@ import "./App.scss";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Main from "./Components/Main/Main";
-import Footer from "./Components/Footer/Footer";
+// import Footer from "./Components/Footer/Footer";
 
 function App() {
     return (
@@ -11,7 +11,7 @@ function App() {
             <Navbar />
             <Home />
             <Main />
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }
