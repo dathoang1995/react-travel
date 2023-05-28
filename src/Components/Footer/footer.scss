@@ -1,304 +1,304 @@
-// @import "../../style/color.scss";
+@import "../../style/color.scss";
 
-// .footer {
-//     width: 100%;
-//     position: relative;
-//     padding: 2rem 0;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     margin: auto;
+.footer {
+    width: 100%;
+    position: relative;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 
-//     .videoDiv {
-//         position: absolute;
-//         width: 100%;
-//         height: 100%;
+    .videoDiv {
+        position: absolute;
+        width: 100%;
+        height: 100%;
 
-//         video {
-//             height: 100%;
-//             object-fit: cover;
-//         }
+        video {
+            height: 100%;
+            object-fit: cover;
+        }
 
-//         &::after {
-//             content: "";
-//             position: absolute;
-//             background: rgba(10, 84, 107, 0.307);
-//             top: 0;
-//             bottom: 0;
-//             right: 0;
-//             left: 0;
-//             // mix-blend-mode: multiply;
-//         }
-//     }
+        &::after {
+            content: "";
+            position: absolute;
+            background: rgba(10, 84, 107, 0.307);
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            // mix-blend-mode: multiply;
+        }
+    }
 
-//     .secContent {
-//         width: 100%;
-//         height: max-content;
-//         padding: 2rem initial;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         flex-direction: column;
-//         margin: auto;
-//         row-gap: 2rem;
-//         z-index: 100;
+    .secContent {
+        width: 100%;
+        height: max-content;
+        padding: 2rem initial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        row-gap: 2rem;
+        z-index: 100;
 
-//         .contactDiv {
-//             justify-content: space-between;
-//             flex-direction: column;
-//             gap: 1rem;
+        .contactDiv {
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 1rem;
 
-//             .text {
-//                 small {
-//                     font-size: 13px;
-//                     font-weight: 400;
-//                     color: $whiteColor;
-//                 }
+            .text {
+                small {
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: $whiteColor;
+                }
 
-//                 h2 {
-//                     font-size: 1.8rem;
-//                     color: $whiteColor;
-//                 }
-//             }
+                h2 {
+                    font-size: 1.8rem;
+                    color: $whiteColor;
+                }
+            }
 
-//             .inputDiv {
-//                 width: 100%;
-//                 gap: 1rem;
-//                 flex-direction: column;
+            .inputDiv {
+                width: 100%;
+                gap: 1rem;
+                flex-direction: column;
 
-//                 input {
-//                     width: 100%;
-//                     padding: 0.5rem 0.6rem;
-//                     border-radius: 3rem;
-//                     border: 1px solid $whiteColor;
-//                     outline: none;
-//                     background: transparent;
-//                     color: $whiteColor;
+                input {
+                    width: 100%;
+                    padding: 0.5rem 0.6rem;
+                    border-radius: 3rem;
+                    border: 1px solid $whiteColor;
+                    outline: none;
+                    background: transparent;
+                    color: $whiteColor;
 
-//                     &::placeholder {
-//                         color: $whiteColor;
-//                         opacity: 0.5;
-//                     }
-//                 }
-//                 .btn {
-//                     width: 100%;
-//                     justify-content: center;
-//                     columns: $whiteColor;
-//                     font-weight: 500;
-//                     gap: 0.5rem;
+                    &::placeholder {
+                        color: $whiteColor;
+                        opacity: 0.5;
+                    }
+                }
+                .btn {
+                    width: 100%;
+                    justify-content: center;
+                    columns: $whiteColor;
+                    font-weight: 500;
+                    gap: 0.5rem;
 
-//                     .icon {
-//                         font-size: 18px;
-//                     }
-//                 }
-//             }
-//         }
+                    .icon {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
 
-//         .footerCard {
-//             position: relative;
-//             padding: 1rem 1rem 4rem;
-//             gap: 2rem;
-//             border-radius: 1rem;
-//             background: $bodyColor;
-//             width: 100%;
-//             justify-content: center;
-//             flex-direction: column;
-//             align-items: flex-start;
-//             overflow: hidden;
+        .footerCard {
+            position: relative;
+            padding: 1rem 1rem 4rem;
+            gap: 2rem;
+            border-radius: 1rem;
+            background: $bodyColor;
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start;
+            overflow: hidden;
 
-//             .footerIntro {
-//                 flex-basis: 50%;
-//                 justify-content: center;
-//                 align-items: flex-start;
-//                 flex-direction: column;
-//                 row-gap: 0.5rem;
-//             }
+            .footerIntro {
+                flex-basis: 50%;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                row-gap: 0.5rem;
+            }
 
-//             .logoDiv {
-//                 .logo {
-//                     color: $blackColor;
-//                     font-weight: 600;
+            .logoDiv {
+                .logo {
+                    color: $blackColor;
+                    font-weight: 600;
 
-//                     .icon {
-//                         font-size: 25px;
-//                         color: $primaryColor;
-//                         margin-right: 10px;
-//                     }
-//                 }
-//             }
+                    .icon {
+                        font-size: 25px;
+                        color: $primaryColor;
+                        margin-right: 10px;
+                    }
+                }
+            }
 
-//             .footerParagraph {
-//                 font-size: 13px;
-//                 color: $textColor;
-//             }
+            .footerParagraph {
+                font-size: 13px;
+                color: $textColor;
+            }
 
-//             .footerSocial {
-//                 column-gap: 0.5rem;
+            .footerSocial {
+                column-gap: 0.5rem;
 
-//                 .icon {
-//                     color: $blackColor;
-//                     font-size: 20px;
+                .icon {
+                    color: $blackColor;
+                    font-size: 20px;
 
-//                     &:hover {
-//                         color: $primaryColor;
-//                     }
-//                 }
-//             }
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
 
-//             .footerLinks {
-//                 flex-basis: 50%;
-//                 width: 100%;
-//                 gap: 1rem;
-//                 grid-template-columns: repeat(2, 1fr);
-//                 justify-content: space-between;
+            .footerLinks {
+                flex-basis: 50%;
+                width: 100%;
+                gap: 1rem;
+                grid-template-columns: repeat(2, 1fr);
+                justify-content: space-between;
 
-//                 .linkGroup {
-//                     .groupTitle {
-//                         display: block;
-//                         font-weight: 600;
-//                         color: $blackColor;
-//                         margin-bottom: 0.5rem;
-//                     }
+                .linkGroup {
+                    .groupTitle {
+                        display: block;
+                        font-weight: 600;
+                        color: $blackColor;
+                        margin-bottom: 0.5rem;
+                    }
 
-//                     .footerList {
-//                         font-size: 15px;
-//                         color: $textColor;
-//                         transition: 0.3s ease-in-out;
+                    .footerList {
+                        font-size: 15px;
+                        color: $textColor;
+                        transition: 0.3s ease-in-out;
 
-//                         .icon {
-//                             font-size: 15px;
-//                             color: $greyText;
-//                         }
+                        .icon {
+                            font-size: 15px;
+                            color: $greyText;
+                        }
 
-//                         &:hover {
-//                             color: $primaryColor;
-//                             transform: translateX(7px);
+                        &:hover {
+                            color: $primaryColor;
+                            transform: translateX(7px);
 
-//                             .icon {
-//                                 color: $secondaryColor;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
+                            .icon {
+                                color: $secondaryColor;
+                            }
+                        }
+                    }
+                }
+            }
 
-//             .footerDiv {
-//                 flex-direction: column;
-//                 position: absolute;
-//                 bottom: 0;
-//                 left: 0;
-//                 right: 0;
-//                 background: $secondaryColor;
-//                 padding: 0.5rem 2rem;
+            .footerDiv {
+                flex-direction: column;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: $secondaryColor;
+                padding: 0.5rem 2rem;
 
-//                 small {
-//                     font-size: 10px;
-//                     color: $whiteColor;
-//                 }
-//             }
-//         }
-//     }
-// }
+                small {
+                    font-size: 10px;
+                    color: $whiteColor;
+                }
+            }
+        }
+    }
+}
 
-// // MEDIA QUERIES ==============================
-// @media screen and (min-width: 500px) {
-//     .footer {
-//         .secContent {
-//             .footerCard {
-//                 .footerLinks {
-//                     grid-template-columns: repeat(3, 1fr);
-//                     padding-bottom: 1rem;
-//                 }
+// MEDIA QUERIES ==============================
+@media screen and (min-width: 500px) {
+    .footer {
+        .secContent {
+            .footerCard {
+                .footerLinks {
+                    grid-template-columns: repeat(3, 1fr);
+                    padding-bottom: 1rem;
+                }
 
-//                 .footerDiv {
-//                     text-align: center;
+                .footerDiv {
+                    text-align: center;
 
-//                     small {
-//                         font-size: 14px;
-//                         color: $whiteColor;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+                    small {
+                        font-size: 14px;
+                        color: $whiteColor;
+                    }
+                }
+            }
+        }
+    }
+}
 
-// @media screen and (min-width: 660px) {
-//     .footer {
-//         .secContent {
-//             .contactDiv {
-//                 flex-direction: row;
-//                 justify-content: space-between;
+@media screen and (min-width: 660px) {
+    .footer {
+        .secContent {
+            .contactDiv {
+                flex-direction: row;
+                justify-content: space-between;
 
-//                 .inputDiv {
-//                     width: max-content;
-//                     flex-direction: row;
-//                     justify-content: flex-start;
+                .inputDiv {
+                    width: max-content;
+                    flex-direction: row;
+                    justify-content: flex-start;
 
-//                     input {
-//                         width: 60%;
-//                     }
+                    input {
+                        width: 60%;
+                    }
 
-//                     .btn {
-//                         width: max-content;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+                    .btn {
+                        width: max-content;
+                    }
+                }
+            }
+        }
+    }
+}
 
-// @media screen and (min-width: 840px) {
-//     .footer {
-//         padding: 5rem 0;
-//         .secContent {
-//             .footerCard {
-//                 flex-direction: row;
+@media screen and (min-width: 840px) {
+    .footer {
+        padding: 5rem 0;
+        .secContent {
+            .footerCard {
+                flex-direction: row;
 
-//                 .footerLinks {
-//                     grid-template-columns: repeat(3, 1fr);
-//                     padding-bottom: 1rem;
-//                 }
-//             }
-//         }
-//     }
-// }
+                .footerLinks {
+                    grid-template-columns: repeat(3, 1fr);
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
 
-// @media screen and (min-width: 1024px) {
-//     .footer {
-//         .secContent {
-//             .footerCard {
-//                 padding: 3rem 1rem;
+@media screen and (min-width: 1024px) {
+    .footer {
+        .secContent {
+            .footerCard {
+                padding: 3rem 1rem;
 
-//                 .footerIntro {
-//                     .footerParagraph {
-//                         font-size: 15px;
-//                         color: $textColor;
-//                     }
+                .footerIntro {
+                    .footerParagraph {
+                        font-size: 15px;
+                        color: $textColor;
+                    }
 
-//                     .footerSocial {
-//                         column-gap: 0.5rem;
+                    .footerSocial {
+                        column-gap: 0.5rem;
 
-//                         .icon {
-//                             color: $textColor;
-//                             font-size: 25px;
+                        .icon {
+                            color: $textColor;
+                            font-size: 25px;
 
-//                             &:hover {
-//                                 color: $primaryColor;
-//                             }
-//                         }
-//                     }
-//                 }
+                            &:hover {
+                                color: $primaryColor;
+                            }
+                        }
+                    }
+                }
 
-//                 .footerLinks {
-//                     .linkGroup {
-//                         .footerList {
-//                             font-size: 16px;
-//                             padding: 5px 0;
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+                .footerLinks {
+                    .linkGroup {
+                        .footerList {
+                            font-size: 16px;
+                            padding: 5px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
